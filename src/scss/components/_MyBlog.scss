@@ -24,10 +24,41 @@
         padding-top: 30px;
         padding-bottom: 54px;
     }
-    
-        
-        
-    
-
-
 }
+
+// .grid-box{
+//     display: grid;
+//     grid-template-columns: repeat(12, 1fr);
+//     grid-gap: 20px;
+//     &__item{
+//         text-align: center;
+//         &_1{
+//             grid-column-start: 1;
+//             grid-column-end: 3;
+//             background-color: red;
+//         }
+//         &_2{
+//             grid-column-start: 3;
+//             grid-column-end: -1;
+//             background-color: blue;
+//         }
+//         &_3{
+//             grid-column-start: 1;
+//             grid-column-end: 6;
+//             background-color: yellow
+//         }
+//         &_4{
+//             grid-column-start: 6;
+//             grid-column-end: 13;
+//             background-color: green;
+//         }
+//     }
+    
+// }
+
+// .plit{
+//     display: flex;
+//     justify-content: center;
+//     flex-wrap: wrap;
+//     margin: 0, -25px;
+// }
