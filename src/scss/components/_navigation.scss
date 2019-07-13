@@ -1,6 +1,32 @@
-.header__navigation_normal{
- &:hover{
-     color: red;
-     text-decoration: underline !important;
- }
+.navigation {
+    width:228px !important;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  
+
+  &__navigation_normal {
+ 
+ 
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+    &:hover{
+      text-decoration: underline !important;
+    }
+  }
+a{
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color:black;
+  &:hover {
+    text-decoration: underline !important;
+    color: red;
+    }
+}
 }

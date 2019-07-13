@@ -21,6 +21,7 @@
     &__gallery{
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
     &__button{
         font-family: 'Bebas Neue', sans-serif;
@@ -89,6 +90,7 @@
 
 .details{
     display: flex;
+   
     flex-wrap: wrap;
 
     &__text{
@@ -111,29 +113,29 @@
             top: 13px;
         
     }
-    &__pic_1{
+    &__pic1{
         @include bg (0);
         
     }
  
 
-    &__pic_2{
+    &__pic2{
         @include bg (1);
         
     }
-    &__pic_3{
+    &__pic3{
         @include bg (2);
         
     }
 }
 
-.item{
+.post{
    
     &__pic{
        
         width: 380px;
         height: 246px;
-        margin-right: 20px;
+        padding-right: 20px;
     }
     // &__pic2{
     //     @include pic();
@@ -163,13 +165,12 @@
         padding-bottom: 20px;
         display: flex;
         justify-content: space-between;
-        &_normal{
-            font-family: 'Open Sans Condensed';
-            font-style: normal;
-            font-weight: 300;
-            font-size: 20px;
-            line-height: 27px;
-        }
+        font-family: 'Open Sans Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 27px;
+      
       
     }
 }

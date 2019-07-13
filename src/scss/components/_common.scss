@@ -2,7 +2,7 @@
 @import url('http://allfont.ru/allfont.css?fonts=bebas-neue');
 body {
   background: #E5E5E5;
-  // font-family: "Open Sans Condensed";
+  
   margin: 0;
 }
 h1, h2, h3, p{
@@ -10,7 +10,7 @@ h1, h2, h3, p{
 }
 
 .container {
-  max-width:1240px;
+  max-width:1220px;
   margin: 0 auto;
   padding-right: 20px;
   padding-left: 20px;
@@ -28,7 +28,7 @@ hr {
   color: black;
 }
 .button_common{
-  font-family: 'Bebas Neue' !important;
+  font-family: 'Bebas Neue', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,7 +52,7 @@ hr {
 }
 
 .button_news{
-  font-family: 'Bebas Neue' !important;
+  font-family: 'Bebas Neue', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;

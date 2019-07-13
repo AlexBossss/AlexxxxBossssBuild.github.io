@@ -21,30 +21,13 @@
         font-family: 'Bebas Neue', sans-serif;
         display: flex;
         justify-content:center;
+        padding-top: 30px;
+        padding-bottom: 54px;
     }
-    &__button_strong{
-        transition: 1s;                 
-        font-size: 24px;
-        line-height: 24px;
-        border:none;
-        align-items: center;
-        width: 228px;
-        height: 44px;
-        background: #FFE01B;
-        margin-top: 30px;
-        margin-bottom:54px;
-        &:hover {            
-            transform: scale(1.11);
-            background-color: #ECCC00;
-        }
-        &:active{
-            border:none;
-            background: #FFEB6C;
-            color: 000;
-        }
+    
         
         
-    }
+    
 
 
 }

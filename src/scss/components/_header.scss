@@ -1,10 +1,10 @@
 .header {
     
   background: #FFFFFF;
- 
+ &__content{
   display: flex;
   justify-content: space-between;
-  
+ }
   &__logo{
     cursor: pointer;
     transition: 1s;
@@ -22,34 +22,5 @@
     margin-bottom: 26.43px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
   }
-
-  &__navigation {
-    width:228px !important;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  &__navigation_normal {
-    font-family: 'Open Sans Condensed';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 22px;
-
-    display: flex;
-    align-items: center;
-
-    color: #000000;
-    &:hover{
-      text-decoration: underline;
-    }
-  }
-a{
+}
   
-  &:hover {
-    text-decoration: underline;
-    color: red;
-    }
-}
-}
