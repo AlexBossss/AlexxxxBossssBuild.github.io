@@ -1,0 +1,177 @@
+.main{
+    background: #F2F2F2;
+    &__title{
+        font-family: 'Open Sans Condensed';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 75px;
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    &__content{
+        max-width: 1179;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 69px;
+       
+       
+    }
+
+    &__gallery{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__button{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 18px;
+        border:none;
+        display: flex;
+        justify-content:center;
+        color: black;
+        
+    }
+    &__button_strong{
+        
+        display: flex;
+        justify-content:center;
+        transition: 1s;
+        align-items: center;
+        width: 278px;
+        height: 44px;
+        background: #FFE01B;
+        margin-top: 58px;
+        margin-bottom:62px;
+        &:hover {
+            transform: scale(1.11);
+            background-color: #ECCC00;
+            text-decoration: none;
+        }
+        &:active{
+            background: #FFEB6C;
+            color: 000;
+            border:none;
+        }
+        
+    }
+}
+
+.pic{
+    background: url("./img/photo2.png");
+    width: 280px;
+    height: 287px;
+    margin-right: 20px;
+}
+.text{
+    position: relative;
+    bottom: 15px;
+    max-width: 875px !important;
+    &__title{
+        
+        font-family: 'Open Sans Condensed';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 61px;
+     
+       
+    }
+    &__passage{
+       
+        font-family: 'Open Sans Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 27px;
+       
+    }
+}
+
+.details{
+    display: flex;
+    flex-wrap: wrap;
+
+    &__text{
+        font-family: 'Open Sans Condensed';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 33px;
+        padding-top: 37px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    @mixin bg($num){
+            height:71px;
+            width:71px;
+            background-image: url("./img/sprite.png");
+            background-position-x: ($num*-71) + px;
+            position: relative;
+            top: 13px;
+        
+    }
+    &__pic_1{
+        @include bg (0);
+        
+    }
+ 
+
+    &__pic_2{
+        @include bg (1);
+        
+    }
+    &__pic_3{
+        @include bg (2);
+        
+    }
+}
+
+.item{
+   
+    &__pic{
+       
+        width: 380px;
+        height: 246px;
+        margin-right: 20px;
+    }
+    // &__pic2{
+    //     @include pic();
+    //     background: url("./img/pic_gallery_2.png");
+    // }
+    // &__pic3{
+    //     @include pic();
+    //     background: url("./img/pic_gallery_3.png");
+    // }
+    // &__pic4{
+    //     @include pic();
+    //     background: url("./img/pic_gallery_4.png");
+    // }
+    // &__pic5{
+    //     @include pic();
+    //     background: url("./img/pic_gallery_5.png");
+    // }
+    // &__pic6{
+    //     @include pic();
+    //     background: url("./img/pic_gallery_6.png");
+    // }
+     
+
+    &__text{
+        width: 380px;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        &_normal{
+            font-family: 'Open Sans Condensed';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 27px;
+        }
+      
+    }
+}
+
+

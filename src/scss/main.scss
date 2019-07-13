@@ -1,0 +1,19 @@
+//Импорт общих стилей
+@import "./components/common";
+
+
+
+@import url('http://allfont.ru/allfont.css?fonts=bebas-neue');
+
+//Импорт компонентов для страниц
+@import "./components/navigation";
+@import "./components/header";
+@import "./components/footer";
+@import "./components/info";
+@import "./components/links";
+@import "./components/MyBlog";
+@import "./components/blog";
+@import "./components/news";
+@import "./components/newsfull";
+@import "./components/about_me";
+@import "./components/lesson";

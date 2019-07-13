@@ -1,0 +1,50 @@
+.info{
+  
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("./img/info.png") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    &__title{
+        font-family: "Open Sans Condensed";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 75px;
+        padding-bottom: 40px;
+        padding-top: 50px;
+    }
+}
+
+.content{
+    display: flex;
+   flex-wrap: wrap;
+
+
+    &__pic{
+        width: 280px;
+        height: 265px;
+        background: url("./img/photo.png");
+        margin-right: 20px;
+        margin-bottom: 70px;
+    }
+    &__text{
+        max-width: 880px;
+        font-family: "Open Sans Condensed";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 27px;
+        
+        &_button{
+            margin-top: 60px;
+        }
+        &_button2{
+            display: flex;
+            justify-content:center;
+            transition: 1s;
+        }
+
+      
+    }
+}

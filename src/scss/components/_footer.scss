@@ -1,0 +1,66 @@
+.footer{
+    
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    &__text{
+        font-family: Open Sans Condensed;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 22px;
+        padding-top: 34px;
+        margin-bottom: 34px;
+    }
+
+}
+
+// .test{
+//     margin:10px;
+//     height:71px;
+//     width:71px;
+//     background-image: url("./img/Sprite-BG.png");
+// }
+// .test2{
+//     margin:10px;
+//     height:71px;
+//     width:71px;
+//     background-image: url("./img/Sprite-BG.png");
+//     background-position-x: -71px;
+// }
+// .test3{
+//     margin:10px;
+//     height:71px;
+//     width:71px;
+//     background-image: url("./img/Sprite-BG.png");
+//     background-position-x: -142px;
+// }
+
+// @mixin bg($num){
+//     margin:10px;
+//     height:71px;
+//     width:71px;
+//     background-image: url("./img/Sprite-BG.png");
+//     background-position-x: ($num*-71) + px;
+
+
+// }
+
+
+// @mixin wh ($line, $height){
+//     line-height: $line +px;
+//     line-height: $height +px;
+// }
+
+
+// .test{
+//     @include wh(20,40);
+
+//     @include bg (0);
+// }
+// .test2{
+//     @include bg (1);
+// }
+// .test3{
+//     @include bg (2);
+// }
