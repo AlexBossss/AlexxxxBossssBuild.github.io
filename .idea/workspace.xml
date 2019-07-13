@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d09d0efc-f2ea-4cf7-87fb-56263bd69564" name="Default Changelist" comment="" />
+    <list default="true" id="d09d0efc-f2ea-4cf7-87fb-56263bd69564" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/build/MyBlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/MyBlog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/components/MyBlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/components/MyBlog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_MyBlog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_MyBlog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
